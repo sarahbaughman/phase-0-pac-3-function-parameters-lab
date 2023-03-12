@@ -7,7 +7,7 @@ function introductionWithLanguage(name,language) {
     }
 
 
-    function introductionWithLanguageOptional(name, language = "Javascript") {
-        return `Hi, my name is ${name} and I am learning to program in ${language}.`
-        }
-    introductionWithLanguageOptional("Gracie","Python")
+function introductionWithLanguageOptional(name, language = "JavaScript") {
+    //console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`)
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`
+    }
